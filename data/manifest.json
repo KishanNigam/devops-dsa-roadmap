@@ -1,0 +1,24 @@
+{
+  "roadmaps": {
+    "devops": {
+      "title": "DevOps Roadmap",
+      "description": "Linux, networking, AWS, containers, Kubernetes, Terraform, CI/CD and observability.",
+      "files": ["devops/roadmap.json"]
+    },
+    "dsa": {
+      "title": "DSA Roadmap",
+      "description": "From zero programming knowledge to interviews and advanced algorithmic thinking.",
+      "files": ["dsa/roadmap.json"]
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Practical exercises, lab projects and engineering scenarios.",
+      "files": ["projects/roadmap.json"]
+    },
+    "interview": {
+      "title": "Interview Prep",
+      "description": "System design, behavioral, coding and DevOps interview patterns.",
+      "files": ["interview/roadmap.json"]
+    }
+  }
+}

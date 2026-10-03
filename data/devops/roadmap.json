@@ -1,0 +1,5294 @@
+{
+  "id": "devops",
+  "title": "DevOps, Cloud, SRE and Production Engineering",
+  "children": [
+    {
+      "id": "linux-foundations",
+      "title": "Linux Foundations",
+      "children": [
+        {
+          "id": "linux-shell-basics",
+          "title": "Shell basics and scripting",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "linux-shell-basics-bash-shell-anatomy-and-execution-model",
+              "title": "Bash shell anatomy and execution model",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-variables-quoting-and-expansion",
+              "title": "Variables, quoting and expansion",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-command-substitution-and-exit-codes",
+              "title": "Command substitution and exit codes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-pipes-redirection-and-file-descriptors",
+              "title": "Pipes, redirection and file descriptors",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-grep-sed-awk-and-cut",
+              "title": "grep, sed, awk and cut",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-sort-uniq-tr-xargs-and-tee",
+              "title": "sort, uniq, tr, xargs and tee",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-find-locate-and-text-processing-workflows",
+              "title": "find, locate and text-processing workflows",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-shell-functions-aliases-and-environment-variables",
+              "title": "Shell functions, aliases and environment variables",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-loops-conditionals-and-case-statements",
+              "title": "Loops, conditionals and case statements",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-bash-scripts-arguments-and-getopts",
+              "title": "Bash scripts, arguments and getopts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-defensive-shell-scripting-set-euo-pipefail",
+              "title": "Defensive shell scripting: set -euo pipefail",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-cron-jobs-and-scheduled-scripts",
+              "title": "Cron jobs and scheduled scripts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-shell-debugging-and-tracing",
+              "title": "Shell debugging and tracing",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-shell-basics-writing-idempotent-operational-scripts",
+              "title": "Writing idempotent operational scripts",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "linux-file-system",
+          "title": "Filesystem and permissions",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "linux-file-system-linux-filesystem-hierarchy",
+              "title": "Linux filesystem hierarchy",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-absolute-vs-relative-paths",
+              "title": "Absolute vs relative paths",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-inodes-links-and-file-metadata",
+              "title": "Inodes, links and file metadata",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-file-ownership-and-chmod-modes",
+              "title": "File ownership and chmod modes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-special-permissions-suid-sgid-and-sticky-bit",
+              "title": "Special permissions: SUID, SGID and sticky bit",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-acls-and-getfacl-setfacl",
+              "title": "ACLs and getfacl/setfacl",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-mounts-fstab-and-mount-options",
+              "title": "Mounts, fstab and mount options",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-disk-usage-df-du-and-ncdu",
+              "title": "Disk usage: df, du and ncdu",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-filesystems-and-storage-concepts",
+              "title": "Filesystems and storage concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-lvm-fundamentals",
+              "title": "LVM fundamentals",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-swap-and-memory-backed-filesystems",
+              "title": "Swap and memory-backed filesystems",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-file-system-tar-gzip-zip-and-archive-workflows",
+              "title": "Tar, gzip, zip and archive workflows",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "linux-processes",
+          "title": "Processes, daemons and services",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "linux-processes-process-lifecycle-and-pid-hierarchy",
+              "title": "Process lifecycle and PID hierarchy",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-ps-top-htop-and-process-inspection",
+              "title": "ps, top, htop and process inspection",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-foreground-background-jobs-and-signals",
+              "title": "Foreground/background jobs and signals",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-kill-pkill-and-signal-handling",
+              "title": "kill, pkill and signal handling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-systemd-units-and-service-lifecycle",
+              "title": "systemd units and service lifecycle",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-systemctl-enable-start-restart-status",
+              "title": "systemctl enable/start/restart/status",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-journalctl-and-service-logs",
+              "title": "journalctl and service logs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-environment-variables-and-process-environments",
+              "title": "Environment variables and process environments",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-resource-limits-and-ulimit",
+              "title": "Resource limits and ulimit",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-nice-renice-and-cpu-priority",
+              "title": "nice, renice and CPU priority",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-zombie-orphan-processes",
+              "title": "Zombie/orphan processes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-processes-troubleshooting-cpu-and-memory-saturation",
+              "title": "Troubleshooting CPU and memory saturation",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "linux-packaging",
+          "title": "Package managers and installs",
+          "hours": 1.0,
+          "children": [
+            {
+              "id": "linux-packaging-apt-package-management",
+              "title": "APT package management",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-yum-dnf-package-management",
+              "title": "YUM/DNF package management",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-rpm-and-deb-concepts",
+              "title": "RPM and DEB concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-repositories-and-package-sources",
+              "title": "Repositories and package sources",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-package-version-pinning",
+              "title": "Package version pinning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-installing-build-dependencies",
+              "title": "Installing build dependencies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-security-updates-and-unattended-upgrades",
+              "title": "Security updates and unattended upgrades",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-binary-vs-source-installation",
+              "title": "Binary vs source installation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-path-and-executable-discovery",
+              "title": "PATH and executable discovery",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-packaging-managing-third-party-repositories",
+              "title": "Managing third-party repositories",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "linux-logs",
+          "title": "System logs and troubleshooting",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "linux-logs-linux-logging-architecture",
+              "title": "Linux logging architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-journalctl-filtering",
+              "title": "journalctl filtering",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-var-log-common-files",
+              "title": "/var/log common files",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-log-rotation-with-logrotate",
+              "title": "Log rotation with logrotate",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-reading-kernel-and-boot-logs",
+              "title": "Reading kernel and boot logs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-disk-full-troubleshooting",
+              "title": "Disk-full troubleshooting",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-cpu-load-troubleshooting",
+              "title": "CPU load troubleshooting",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-memory-and-oom-troubleshooting",
+              "title": "Memory and OOM troubleshooting",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-network-troubleshooting-commands",
+              "title": "Network troubleshooting commands",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-strace-and-lsof-basics",
+              "title": "strace and lsof basics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-ss-netstat-and-socket-inspection",
+              "title": "ss, netstat and socket inspection",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "linux-logs-operational-troubleshooting-workflow",
+              "title": "Operational troubleshooting workflow",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "networking-core",
+      "title": "Networking and Protocols",
+      "children": [
+        {
+          "id": "net-ip-routing",
+          "title": "IP addressing and routing",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "net-dns",
+          "title": "DNS and name resolution",
+          "hours": 1.0,
+          "children": []
+        },
+        {
+          "id": "net-http",
+          "title": "HTTP, HTTPS and TLS",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "net-load-balancing",
+          "title": "Load balancers and proxies",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "net-firewalls",
+          "title": "Firewalls and security groups",
+          "hours": 1.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "cloud-aws",
+      "title": "AWS and Cloud Fundamentals",
+      "children": [
+        {
+          "id": "aws-iam",
+          "title": "IAM and least privilege",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "aws-iam-iam-users-groups-and-roles",
+              "title": "IAM users, groups and roles",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-policies-and-json-policy-evaluation",
+              "title": "Policies and JSON policy evaluation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-least-privilege-design",
+              "title": "Least privilege design",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-sts-and-temporary-credentials",
+              "title": "STS and temporary credentials",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-instance-profiles",
+              "title": "Instance profiles",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-cross-account-access",
+              "title": "Cross-account access",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-aws-organizations-and-scps",
+              "title": "AWS Organizations and SCPs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-permission-boundaries",
+              "title": "Permission boundaries",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-iam-access-analyzer",
+              "title": "IAM Access Analyzer",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-mfa-and-credential-hygiene",
+              "title": "MFA and credential hygiene",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-iam-cloudtrail-for-iam-auditing",
+              "title": "CloudTrail for IAM auditing",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "aws-vpc",
+          "title": "VPC, subnets and routing",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "aws-vpc-vpc-and-cidr-design",
+              "title": "VPC and CIDR design",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-public-and-private-subnets",
+              "title": "Public and private subnets",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-route-tables",
+              "title": "Route tables",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-internet-gateways",
+              "title": "Internet gateways",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-nat-gateways",
+              "title": "NAT gateways",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-vpc-endpoints",
+              "title": "VPC endpoints",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-security-groups-vs-nacls",
+              "title": "Security groups vs NACLs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-vpc-peering",
+              "title": "VPC peering",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-transit-gateway",
+              "title": "Transit Gateway",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-dns-in-vpc",
+              "title": "DNS in VPC",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-flow-logs",
+              "title": "Flow Logs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-vpc-multi-az-network-architecture",
+              "title": "Multi-AZ network architecture",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "aws-ec2",
+          "title": "EC2 and instance management",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "aws-ec2-ec2-instance-types",
+              "title": "EC2 instance types",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-ami-lifecycle",
+              "title": "AMI lifecycle",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-user-data-and-cloud-init",
+              "title": "User data and cloud-init",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-ebs-volumes-and-snapshots",
+              "title": "EBS volumes and snapshots",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-instance-metadata-service",
+              "title": "Instance metadata service",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-elastic-ips",
+              "title": "Elastic IPs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-auto-scaling-groups",
+              "title": "Auto Scaling Groups",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-launch-templates",
+              "title": "Launch templates",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-systems-manager",
+              "title": "Systems Manager",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-bastion-and-private-ec2-access",
+              "title": "Bastion and private EC2 access",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-ec2-ec2-troubleshooting",
+              "title": "EC2 troubleshooting",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "aws-s3",
+          "title": "S3, storage classes and backups",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "aws-s3-s3-buckets-and-object-model",
+              "title": "S3 buckets and object model",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-storage-classes",
+              "title": "Storage classes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-versioning",
+              "title": "Versioning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-lifecycle-policies",
+              "title": "Lifecycle policies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-encryption",
+              "title": "Encryption",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-bucket-policies-and-acls",
+              "title": "Bucket policies and ACLs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-presigned-urls",
+              "title": "Presigned URLs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-replication",
+              "title": "Replication",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-object-lock",
+              "title": "Object Lock",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-static-website-hosting",
+              "title": "Static website hosting",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-s3-access-logging",
+              "title": "S3 access logging",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-s3-backup-patterns",
+              "title": "Backup patterns",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "aws-rds",
+          "title": "RDS and managed databases",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "aws-rds-rds-engines-and-architecture",
+              "title": "RDS engines and architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-multi-az",
+              "title": "Multi-AZ",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-read-replicas",
+              "title": "Read replicas",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-automated-backups",
+              "title": "Automated backups",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-snapshots-and-restore",
+              "title": "Snapshots and restore",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-parameter-groups",
+              "title": "Parameter groups",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-security-groups-for-databases",
+              "title": "Security groups for databases",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-performance-insights",
+              "title": "Performance Insights",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-connection-management",
+              "title": "Connection management",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-rds-maintenance-windows",
+              "title": "RDS maintenance windows",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-rds-database-migration-basics",
+              "title": "Database migration basics",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "aws-eks",
+          "title": "EKS and managed Kubernetes",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "aws-eks-eks-control-plane-architecture",
+              "title": "EKS control plane architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-managed-node-groups",
+              "title": "Managed node groups",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-fargate-basics",
+              "title": "Fargate basics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-eks-iam-integration",
+              "title": "EKS IAM integration",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-aws-load-balancer-controller",
+              "title": "AWS Load Balancer Controller",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-eks-networking",
+              "title": "EKS networking",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-ebs-efs-csi-drivers",
+              "title": "EBS/EFS CSI drivers",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-cluster-autoscaling",
+              "title": "Cluster autoscaling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-irsa-and-pod-identity",
+              "title": "IRSA and Pod Identity",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-eks-logging",
+              "title": "EKS logging",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "aws-eks-eks-upgrades",
+              "title": "EKS upgrades",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "containers",
+      "title": "Containers and Runtime",
+      "children": [
+        {
+          "id": "docker-images",
+          "title": "Docker images and layers",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "docker-images-docker-architecture-and-cli",
+              "title": "Docker architecture and CLI",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-dockerfile-instructions",
+              "title": "Dockerfile instructions",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-image-layers-and-caching",
+              "title": "Image layers and caching",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-build-context-and-dockerignore",
+              "title": "Build context and .dockerignore",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-multi-stage-builds",
+              "title": "Multi-stage builds",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-buildkit",
+              "title": "BuildKit",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-tagging-and-versioning",
+              "title": "Tagging and versioning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-private-registries",
+              "title": "Private registries",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-image-scanning",
+              "title": "Image scanning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-minimal-base-images",
+              "title": "Minimal base images",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-images-container-entrypoints-and-cmd",
+              "title": "Container entrypoints and CMD",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "docker-compose",
+          "title": "Compose for local stacks",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "docker-compose-compose-file-structure",
+              "title": "Compose file structure",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-services-and-dependencies",
+              "title": "Services and dependencies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-environment-configuration",
+              "title": "Environment configuration",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-networks-in-compose",
+              "title": "Networks in Compose",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-volumes-in-compose",
+              "title": "Volumes in Compose",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-healthchecks",
+              "title": "Healthchecks",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-profiles",
+              "title": "Profiles",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-local-development-stacks",
+              "title": "Local development stacks",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-compose-secrets-configs",
+              "title": "Compose secrets/configs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "docker-compose-debugging-multi-container-applications",
+              "title": "Debugging multi-container applications",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "docker-networking",
+          "title": "Container networking",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "docker-volumes",
+          "title": "Volumes and persistence",
+          "hours": 1.0,
+          "children": []
+        },
+        {
+          "id": "docker-security",
+          "title": "Container hardening",
+          "hours": 1.5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "kubernetes-core",
+      "title": "Kubernetes and Platform",
+      "children": [
+        {
+          "id": "k8s-architecture",
+          "title": "Cluster architecture and components",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "k8s-architecture-kubernetes-control-plane",
+              "title": "Kubernetes control plane",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-api-server",
+              "title": "API server",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-etcd",
+              "title": "etcd",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-scheduler",
+              "title": "Scheduler",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-controller-manager",
+              "title": "Controller manager",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-kubelet",
+              "title": "Kubelet",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-container-runtime",
+              "title": "Container runtime",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-kubectl-and-api-objects",
+              "title": "kubectl and API objects",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-namespaces",
+              "title": "Namespaces",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-labels-and-selectors",
+              "title": "Labels and selectors",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-architecture-declarative-desired-state",
+              "title": "Declarative desired state",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "k8s-pods",
+          "title": "Pods, Deployments and Services",
+          "hours": 2.0,
+          "children": []
+        },
+        {
+          "id": "k8s-configmaps",
+          "title": "ConfigMaps, Secrets and config",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "k8s-storage",
+          "title": "Persistent volumes and storage",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "k8s-storage-persistentvolumes",
+              "title": "PersistentVolumes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-persistentvolumeclaims",
+              "title": "PersistentVolumeClaims",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-storageclasses",
+              "title": "StorageClasses",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-dynamic-provisioning",
+              "title": "Dynamic provisioning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-csi-drivers",
+              "title": "CSI drivers",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-ebs-efs-patterns",
+              "title": "EBS/EFS patterns",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-access-modes",
+              "title": "Access modes",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-volume-expansion",
+              "title": "Volume expansion",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-stateful-workloads",
+              "title": "Stateful workloads",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-storage-storage-troubleshooting",
+              "title": "Storage troubleshooting",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "k8s-helm",
+          "title": "Helm and package delivery",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "k8s-helm-helm-architecture",
+              "title": "Helm architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-charts-and-templates",
+              "title": "Charts and templates",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-values-yaml",
+              "title": "values.yaml",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-template-functions",
+              "title": "Template functions",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-named-templates",
+              "title": "Named templates",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-chart-dependencies",
+              "title": "Chart dependencies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-helm-hooks",
+              "title": "Helm hooks",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-helm-upgrade-rollback",
+              "title": "Helm upgrade/rollback",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-chart-testing",
+              "title": "Chart testing",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-oci-registries",
+              "title": "OCI registries",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "k8s-helm-chart-security",
+              "title": "Chart security",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iac-terraform",
+      "title": "Infrastructure as Code",
+      "children": [
+        {
+          "id": "tf-basics",
+          "title": "Terraform basics and state",
+          "hours": 2.0,
+          "children": [
+            {
+              "id": "tf-basics-terraform-workflow",
+              "title": "Terraform workflow",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-providers-and-resources",
+              "title": "Providers and resources",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-terraform-configuration-syntax",
+              "title": "Terraform configuration syntax",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-state-fundamentals",
+              "title": "State fundamentals",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-plan-vs-apply",
+              "title": "Plan vs apply",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-state-locking",
+              "title": "State locking",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-state-drift",
+              "title": "State drift",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-importing-resources",
+              "title": "Importing resources",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-sensitive-values",
+              "title": "Sensitive values",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-basics-terraform-cli-workflow",
+              "title": "Terraform CLI workflow",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "tf-modules",
+          "title": "Modules and reusable design",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "tf-modules-module-structure",
+              "title": "Module structure",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-inputs-and-outputs",
+              "title": "Module inputs and outputs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-composition",
+              "title": "Module composition",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-versioning",
+              "title": "Module versioning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-public-vs-private-modules",
+              "title": "Public vs private modules",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-reusable-network-modules",
+              "title": "Reusable network modules",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-reusable-compute-modules",
+              "title": "Reusable compute modules",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-testing",
+              "title": "Module testing",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-documentation",
+              "title": "Module documentation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-modules-module-design-standards",
+              "title": "Module design standards",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "tf-variables",
+          "title": "Inputs, locals and outputs",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "tf-providers",
+          "title": "Providers and remote state",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "tf-providers-provider-configuration",
+              "title": "Provider configuration",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-provider-aliases",
+              "title": "Provider aliases",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-version-constraints",
+              "title": "Version constraints",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-backend-configuration",
+              "title": "Backend configuration",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-remote-state",
+              "title": "Remote state",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-state-locking",
+              "title": "State locking",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-workspaces-and-alternatives",
+              "title": "Workspaces and alternatives",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-cross-account-providers",
+              "title": "Cross-account providers",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-provider-credentials",
+              "title": "Provider credentials",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "tf-providers-terraform-cloud-enterprise-concepts",
+              "title": "Terraform Cloud/Enterprise concepts",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "tf-practice",
+          "title": "Provisioning real infrastructure",
+          "hours": 2.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "cicd-pipelines",
+      "title": "CI/CD and Delivery",
+      "children": [
+        {
+          "id": "cicd-git-workflows",
+          "title": "Git workflows and branching",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "cicd-builds",
+          "title": "Build pipelines and automation",
+          "hours": 2.0,
+          "children": []
+        },
+        {
+          "id": "cicd-tests",
+          "title": "Unit and integration testing",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "cicd-deployments",
+          "title": "Canary, blue-green and rolling updates",
+          "hours": 2.0,
+          "children": []
+        },
+        {
+          "id": "cicd-artifacts",
+          "title": "Artifact repositories and versioning",
+          "hours": 1.5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "title": "Observability and Metrics",
+      "children": [
+        {
+          "id": "obs-logs",
+          "title": "Structured logging",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "obs-logs-structured-json-logging",
+              "title": "Structured JSON logging",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-log-levels",
+              "title": "Log levels",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-correlation-ids",
+              "title": "Correlation IDs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-request-ids",
+              "title": "Request IDs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-centralized-log-collection",
+              "title": "Centralized log collection",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-fluent-bit-fluentd-concepts",
+              "title": "Fluent Bit/Fluentd concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-opensearch-elk-concepts",
+              "title": "OpenSearch/ELK concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-log-retention",
+              "title": "Log retention",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-pii-and-secret-redaction",
+              "title": "PII and secret redaction",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-logs-log-based-alerts",
+              "title": "Log-based alerts",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "obs-metrics",
+          "title": "Metrics and dashboards",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "obs-metrics-metric-types",
+              "title": "Metric types",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-prometheus-architecture",
+              "title": "Prometheus architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-exporters",
+              "title": "Exporters",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-promql-basics",
+              "title": "PromQL basics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-recording-rules",
+              "title": "Recording rules",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-grafana-dashboards",
+              "title": "Grafana dashboards",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-golden-signals",
+              "title": "Golden signals",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-application-metrics",
+              "title": "Application metrics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-infrastructure-metrics",
+              "title": "Infrastructure metrics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-kubernetes-metrics",
+              "title": "Kubernetes metrics",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-metrics-alertmanager",
+              "title": "Alertmanager",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "obs-tracing",
+          "title": "Tracing and request flow",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "obs-tracing-distributed-tracing-concepts",
+              "title": "Distributed tracing concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-opentelemetry",
+              "title": "OpenTelemetry",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-trace-span-context",
+              "title": "Trace/span context",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-context-propagation",
+              "title": "Context propagation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-sampling",
+              "title": "Sampling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-instrumenting-apis",
+              "title": "Instrumenting APIs",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-trace-visualization",
+              "title": "Trace visualization",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-correlating-logs-metrics-and-traces",
+              "title": "Correlating logs metrics and traces",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "obs-tracing-tracing-async-workflows",
+              "title": "Tracing async workflows",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "obs-alerting",
+          "title": "SLIs, SLOs and alerts",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "obs-incident",
+          "title": "Incident response and postmortems",
+          "hours": 2.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "security-ops",
+      "title": "Security and Hardening",
+      "children": [
+        {
+          "id": "sec-secrets",
+          "title": "Secrets management",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "sec-secrets-secrets-vs-configuration",
+              "title": "Secrets vs configuration",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-aws-secrets-manager",
+              "title": "AWS Secrets Manager",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-ssm-parameter-store",
+              "title": "SSM Parameter Store",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-kubernetes-secrets",
+              "title": "Kubernetes Secrets",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-external-secrets-operator",
+              "title": "External Secrets Operator",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-vault-concepts",
+              "title": "Vault concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-secret-rotation",
+              "title": "Secret rotation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-secret-injection",
+              "title": "Secret injection",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-secret-scanning",
+              "title": "Secret scanning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-secrets-avoiding-credentials-in-git",
+              "title": "Avoiding credentials in Git",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-scanning",
+          "title": "Vulnerability scanning and patching",
+          "hours": 1.5,
+          "children": []
+        },
+        {
+          "id": "sec-iam",
+          "title": "IAM and service identities",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "sec-iam-iam-architecture",
+              "title": "IAM architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-workload-identities",
+              "title": "Workload identities",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-kubernetes-rbac",
+              "title": "Kubernetes RBAC",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-aws-iam-roles",
+              "title": "AWS IAM roles",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-oidc-federation",
+              "title": "OIDC federation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-short-lived-credentials",
+              "title": "Short-lived credentials",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-service-to-service-authentication",
+              "title": "Service-to-service authentication",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-access-reviews",
+              "title": "Access reviews",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-iam-privilege-escalation-prevention",
+              "title": "Privilege escalation prevention",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-network",
+          "title": "Network policies and segmentation",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "sec-network-kubernetes-networkpolicies",
+              "title": "Kubernetes NetworkPolicies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-microsegmentation",
+              "title": "Microsegmentation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-private-clusters",
+              "title": "Private clusters",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-ingress-security",
+              "title": "Ingress security",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-egress-policies",
+              "title": "Egress policies",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-service-mesh-security-concepts",
+              "title": "Service mesh security concepts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-mtls",
+              "title": "mTLS",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-zero-trust-architecture",
+              "title": "Zero-trust architecture",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sec-network-security-boundaries",
+              "title": "Security boundaries",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sec-image",
+          "title": "Image signing and supply chain safety",
+          "hours": 1.5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "sre-reliability",
+      "title": "SRE and Reliability Engineering",
+      "children": [
+        {
+          "id": "sre-slis",
+          "title": "SLIs, SLOs and error budgets",
+          "hours": 2.0,
+          "children": []
+        },
+        {
+          "id": "sre-capacity",
+          "title": "Capacity planning and scaling",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "sre-capacity-capacity-models",
+              "title": "Capacity models",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-resource-utilization",
+              "title": "Resource utilization",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-load-testing",
+              "title": "Load testing",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-horizontal-scaling",
+              "title": "Horizontal scaling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-vertical-scaling",
+              "title": "Vertical scaling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-autoscaling",
+              "title": "Autoscaling",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-cluster-capacity",
+              "title": "Cluster capacity",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-headroom-planning",
+              "title": "Headroom planning",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-capacity-cost-vs-capacity-tradeoffs",
+              "title": "Cost vs capacity tradeoffs",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sre-automation",
+          "title": "Self-healing automation",
+          "hours": 2.0,
+          "children": []
+        },
+        {
+          "id": "sre-failure",
+          "title": "Failure modes and resilience",
+          "hours": 1.5,
+          "children": [
+            {
+              "id": "sre-failure-failure-domains",
+              "title": "Failure domains",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-single-points-of-failure",
+              "title": "Single points of failure",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-timeouts",
+              "title": "Timeouts",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-retries",
+              "title": "Retries",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-backoff-and-jitter",
+              "title": "Backoff and jitter",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-circuit-breakers",
+              "title": "Circuit breakers",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-bulkheads",
+              "title": "Bulkheads",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-graceful-degradation",
+              "title": "Graceful degradation",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-chaos-engineering",
+              "title": "Chaos engineering",
+              "hours": 0.5,
+              "children": []
+            },
+            {
+              "id": "sre-failure-disaster-recovery",
+              "title": "Disaster recovery",
+              "hours": 0.5,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sre-blameless",
+          "title": "Blameless culture and reviews",
+          "hours": 1.0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "git-engineering",
+      "title": "Git, GitHub and Collaboration",
+      "children": [
+        {
+          "id": "git-advanced",
+          "title": "Advanced Git workflows",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "git-advanced-interactive-rebase",
+              "title": "Interactive rebase",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-cherry-pick-and-revert",
+              "title": "Cherry-pick and revert",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-bisect-for-regression-hunting",
+              "title": "Bisect for regression hunting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-reflog-recovery",
+              "title": "Reflog recovery",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-submodules-and-subtree-concepts",
+              "title": "Submodules and subtree concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-git-lfs",
+              "title": "Git LFS",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "git-advanced-monorepo-vs-polyrepo",
+              "title": "Monorepo vs polyrepo",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "github-engineering",
+          "title": "GitHub engineering practices",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "github-engineering-pull-request-workflows",
+              "title": "Pull request workflows",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-branch-protection",
+              "title": "Branch protection",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-codeowners",
+              "title": "CODEOWNERS",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-github-issues-and-projects",
+              "title": "GitHub Issues and Projects",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-github-releases",
+              "title": "GitHub Releases",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-github-packages",
+              "title": "GitHub Packages",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-engineering-github-environments-and-approvals",
+              "title": "GitHub environments and approvals",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "repo-quality",
+          "title": "Repository engineering standards",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "repo-quality-readme-and-documentation",
+              "title": "README and documentation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-contributing-guides",
+              "title": "CONTRIBUTING guides",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-versioning-strategy",
+              "title": "Versioning strategy",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-commit-standards",
+              "title": "Commit standards",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-pre-commit-hooks",
+              "title": "Pre-commit hooks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-linting-and-formatting",
+              "title": "Linting and formatting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "repo-quality-dependency-management",
+              "title": "Dependency management",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "python-automation",
+      "title": "Python for DevOps and Automation",
+      "children": [
+        {
+          "id": "py-foundations",
+          "title": "Python fundamentals for automation",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "py-foundations-variables-and-types",
+              "title": "Variables and types",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-strings-and-collections",
+              "title": "Strings and collections",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-conditions-and-loops",
+              "title": "Conditions and loops",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-functions",
+              "title": "Functions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-modules-and-packages",
+              "title": "Modules and packages",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-exceptions",
+              "title": "Exceptions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-file-i-o",
+              "title": "File I/O",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-virtual-environments",
+              "title": "Virtual environments",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-foundations-pip-and-requirements",
+              "title": "pip and requirements",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "py-cli",
+          "title": "Python CLI automation",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "py-cli-argparse",
+              "title": "argparse",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-environment-variables",
+              "title": "Environment variables",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-config-files",
+              "title": "Config files",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-logging",
+              "title": "Logging",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-exit-codes",
+              "title": "Exit codes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-subprocess-management",
+              "title": "Subprocess management",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-cli-validation",
+              "title": "CLI validation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cli-packaging-a-cli",
+              "title": "Packaging a CLI",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "py-api",
+          "title": "Python APIs and HTTP automation",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "py-api-requests-httpx",
+              "title": "requests/httpx",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-rest-api-calls",
+              "title": "REST API calls",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-authentication-headers",
+              "title": "Authentication headers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-json-handling",
+              "title": "JSON handling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-retries-and-timeouts",
+              "title": "Retries and timeouts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-pagination",
+              "title": "Pagination",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-api-error-handling",
+              "title": "API error handling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-api-concurrent-api-calls",
+              "title": "Concurrent API calls",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "py-cloud",
+          "title": "Python cloud automation",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "py-cloud-boto3-fundamentals",
+              "title": "boto3 fundamentals",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-ec2-automation",
+              "title": "EC2 automation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-s3-automation",
+              "title": "S3 automation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-iam-automation",
+              "title": "IAM automation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-eks-api-automation",
+              "title": "EKS/API automation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-tagging-resources",
+              "title": "Tagging resources",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-inventory-scripts",
+              "title": "Inventory scripts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-cloud-safe-cleanup-scripts",
+              "title": "Safe cleanup scripts",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "py-testing",
+          "title": "Testing automation code",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "py-testing-pytest-fundamentals",
+              "title": "pytest fundamentals",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-testing-fixtures",
+              "title": "Fixtures",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-testing-mocking",
+              "title": "Mocking",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-testing-integration-tests",
+              "title": "Integration tests",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-testing-testable-automation-design",
+              "title": "Testable automation design",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "py-testing-ci-test-execution",
+              "title": "CI test execution",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ci-cd-platforms",
+      "title": "CI/CD Platforms and GitOps",
+      "children": [
+        {
+          "id": "jenkins",
+          "title": "Jenkins",
+          "hours": 5.0,
+          "children": [
+            {
+              "id": "jenkins-controller-and-agents",
+              "title": "Controller and agents",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-pipeline-as-code",
+              "title": "Pipeline as Code",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-declarative-pipelines",
+              "title": "Declarative pipelines",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-credentials-binding",
+              "title": "Credentials binding",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-shared-libraries",
+              "title": "Shared libraries",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-agents-and-labels",
+              "title": "Agents and labels",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-artifacts",
+              "title": "Artifacts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-webhooks",
+              "title": "Webhooks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-pipeline-troubleshooting",
+              "title": "Pipeline troubleshooting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "jenkins-jenkins-security",
+              "title": "Jenkins security",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "github-actions",
+          "title": "GitHub Actions",
+          "hours": 5.0,
+          "children": [
+            {
+              "id": "github-actions-workflow-syntax",
+              "title": "Workflow syntax",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-triggers",
+              "title": "Triggers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-jobs-and-steps",
+              "title": "Jobs and steps",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-matrix-builds",
+              "title": "Matrix builds",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-secrets-and-environments",
+              "title": "Secrets and environments",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-reusable-workflows",
+              "title": "Reusable workflows",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-composite-actions",
+              "title": "Composite actions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-oidc-to-aws",
+              "title": "OIDC to AWS",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-caching",
+              "title": "Caching",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "github-actions-deployment-workflows",
+              "title": "Deployment workflows",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "gitlab-ci",
+          "title": "GitLab CI concepts",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "gitlab-ci-runners",
+              "title": "Runners",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-stages",
+              "title": "Stages",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-variables",
+              "title": "Variables",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-artifacts-and-caches",
+              "title": "Artifacts and caches",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-environments",
+              "title": "Environments",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-manual-approvals",
+              "title": "Manual approvals",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-rules-and-conditions",
+              "title": "Rules and conditions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "gitlab-ci-deployment-pipelines",
+              "title": "Deployment pipelines",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "argocd",
+          "title": "Argo CD GitOps",
+          "hours": 5.0,
+          "children": [
+            {
+              "id": "argocd-gitops-principles",
+              "title": "GitOps principles",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-application-manifests",
+              "title": "Application manifests",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-application-and-appproject",
+              "title": "Application and AppProject",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-sync-policies",
+              "title": "Sync policies",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-health-assessment",
+              "title": "Health assessment",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-sync-waves",
+              "title": "Sync waves",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-rollback",
+              "title": "Rollback",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-multi-cluster-gitops",
+              "title": "Multi-cluster GitOps",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-rbac",
+              "title": "RBAC",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "argocd-secrets-in-gitops",
+              "title": "Secrets in GitOps",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "progressive-delivery",
+          "title": "Progressive delivery",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "progressive-delivery-argo-rollouts-concepts",
+              "title": "Argo Rollouts concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "progressive-delivery-canary-analysis",
+              "title": "Canary analysis",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "progressive-delivery-traffic-shifting",
+              "title": "Traffic shifting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "progressive-delivery-automated-rollback",
+              "title": "Automated rollback",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "progressive-delivery-feature-flags",
+              "title": "Feature flags",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "progressive-delivery-deployment-metrics",
+              "title": "Deployment metrics",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "config-automation",
+      "title": "Configuration Management and Provisioning",
+      "children": [
+        {
+          "id": "ansible-core",
+          "title": "Ansible fundamentals",
+          "hours": 5.5,
+          "children": [
+            {
+              "id": "ansible-core-inventory",
+              "title": "Inventory",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-ad-hoc-commands",
+              "title": "Ad-hoc commands",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-modules",
+              "title": "Modules",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-playbooks",
+              "title": "Playbooks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-variables",
+              "title": "Variables",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-facts",
+              "title": "Facts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-conditionals",
+              "title": "Conditionals",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-loops",
+              "title": "Loops",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-handlers",
+              "title": "Handlers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-templates",
+              "title": "Templates",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-core-tags",
+              "title": "Tags",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "ansible-advanced",
+          "title": "Advanced Ansible",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "ansible-advanced-roles",
+              "title": "Roles",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-collections",
+              "title": "Collections",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-vault",
+              "title": "Vault",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-dynamic-inventory",
+              "title": "Dynamic inventory",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-error-handling",
+              "title": "Error handling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-check-mode",
+              "title": "Check mode",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-idempotency",
+              "title": "Idempotency",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-molecule-testing",
+              "title": "Molecule testing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ansible-advanced-awx-automation-controller-concepts",
+              "title": "AWX/Automation Controller concepts",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "packer",
+          "title": "Packer",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "packer-machine-images",
+              "title": "Machine images",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-variables",
+              "title": "Variables",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-provisioners",
+              "title": "Provisioners",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-builders",
+              "title": "Builders",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-aws-ami-builds",
+              "title": "AWS AMI builds",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-image-pipelines",
+              "title": "Image pipelines",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "packer-golden-image-strategy",
+              "title": "Golden image strategy",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "cloud-init",
+          "title": "Cloud-init and bootstrap",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "cloud-init-user-data",
+              "title": "User data",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "cloud-init-package-installation",
+              "title": "Package installation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "cloud-init-users-and-ssh",
+              "title": "Users and SSH",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "cloud-init-systemd-configuration",
+              "title": "Systemd configuration",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "cloud-init-first-boot-scripts",
+              "title": "First-boot scripts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "cloud-init-bootstrap-troubleshooting",
+              "title": "Bootstrap troubleshooting",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases for DevOps",
+      "children": [
+        {
+          "id": "db-fundamentals",
+          "title": "Database fundamentals",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "db-fundamentals-relational-vs-nosql",
+              "title": "Relational vs NoSQL",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-tables-and-indexes",
+              "title": "Tables and indexes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-transactions",
+              "title": "Transactions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-acid",
+              "title": "ACID",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-isolation-levels",
+              "title": "Isolation levels",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-backups",
+              "title": "Backups",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "db-fundamentals-connection-pooling",
+              "title": "Connection pooling",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "postgresql",
+          "title": "PostgreSQL operations",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "postgresql-users-and-roles",
+              "title": "Users and roles",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-schemas",
+              "title": "Schemas",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-indexes",
+              "title": "Indexes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-explain-basics",
+              "title": "EXPLAIN basics",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-backup-and-restore",
+              "title": "Backup and restore",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-replication-concepts",
+              "title": "Replication concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-vacuum-and-autovacuum",
+              "title": "Vacuum and autovacuum",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-connection-limits",
+              "title": "Connection limits",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "postgresql-monitoring",
+              "title": "Monitoring",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mysql",
+          "title": "MySQL operations",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "mysql-users-and-grants",
+              "title": "Users and grants",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-indexes",
+              "title": "Indexes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-backup-and-restore",
+              "title": "Backup and restore",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-slow-query-logs",
+              "title": "Slow query logs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-performance-basics",
+              "title": "Performance basics",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mysql-connection-management",
+              "title": "Connection management",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "mongodb",
+          "title": "MongoDB operations",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "mongodb-documents-and-collections",
+              "title": "Documents and collections",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-indexes",
+              "title": "Indexes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-aggregation",
+              "title": "Aggregation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-replica-sets",
+              "title": "Replica sets",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-backups",
+              "title": "Backups",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-users-and-roles",
+              "title": "Users and roles",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-connection-strings",
+              "title": "Connection strings",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "mongodb-monitoring",
+              "title": "Monitoring",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "redis",
+          "title": "Redis operations",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "redis-data-structures",
+              "title": "Data structures",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-persistence",
+              "title": "Persistence",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-ttl",
+              "title": "TTL",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-eviction",
+              "title": "Eviction",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-sentinel",
+              "title": "Sentinel",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-cluster-concepts",
+              "title": "Cluster concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "redis-caching-patterns",
+              "title": "Caching patterns",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "messaging-distributed",
+      "title": "Messaging and Distributed Systems",
+      "children": [
+        {
+          "id": "kafka",
+          "title": "Apache Kafka",
+          "hours": 5.5,
+          "children": [
+            {
+              "id": "kafka-brokers-and-partitions",
+              "title": "Brokers and partitions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-topics",
+              "title": "Topics",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-producers",
+              "title": "Producers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-consumers",
+              "title": "Consumers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-consumer-groups",
+              "title": "Consumer groups",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-offsets",
+              "title": "Offsets",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-retention",
+              "title": "Retention",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-exactly-once-concepts",
+              "title": "Exactly-once concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-kafka-connect",
+              "title": "Kafka Connect",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "kafka-schema-registry",
+              "title": "Schema Registry",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "rabbitmq",
+          "title": "RabbitMQ",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "rabbitmq-exchanges",
+              "title": "Exchanges",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-queues",
+              "title": "Queues",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-bindings",
+              "title": "Bindings",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-routing-keys",
+              "title": "Routing keys",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-acknowledgements",
+              "title": "Acknowledgements",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-dead-letter-queues",
+              "title": "Dead-letter queues",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-retries",
+              "title": "Retries",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-publisher-confirms",
+              "title": "Publisher confirms",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "rabbitmq-consumer-scaling",
+              "title": "Consumer scaling",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "distributed-basics",
+          "title": "Distributed systems fundamentals",
+          "hours": 5.0,
+          "children": [
+            {
+              "id": "distributed-basics-cap-theorem",
+              "title": "CAP theorem",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-consistency-models",
+              "title": "Consistency models",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-partitioning",
+              "title": "Partitioning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-leader-election",
+              "title": "Leader election",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-quorums",
+              "title": "Quorums",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-idempotency",
+              "title": "Idempotency",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-distributed-locks",
+              "title": "Distributed locks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-eventual-consistency",
+              "title": "Eventual consistency",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "distributed-basics-backpressure",
+              "title": "Backpressure",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "resilience-patterns",
+          "title": "Distributed resilience patterns",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "resilience-patterns-timeouts",
+              "title": "Timeouts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-retries",
+              "title": "Retries",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-jitter",
+              "title": "Jitter",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-circuit-breakers",
+              "title": "Circuit breakers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-bulkheads",
+              "title": "Bulkheads",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-rate-limiting",
+              "title": "Rate limiting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-load-shedding",
+              "title": "Load shedding",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-queues-for-smoothing",
+              "title": "Queues for smoothing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "resilience-patterns-graceful-degradation",
+              "title": "Graceful degradation",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "observability-platform",
+      "title": "Advanced Observability and APM",
+      "children": [
+        {
+          "id": "opentelemetry",
+          "title": "OpenTelemetry",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "opentelemetry-collector-architecture",
+              "title": "Collector architecture",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-receivers",
+              "title": "Receivers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-processors",
+              "title": "Processors",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-exporters",
+              "title": "Exporters",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-pipelines",
+              "title": "Pipelines",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-resource-attributes",
+              "title": "Resource attributes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-instrumentation",
+              "title": "Instrumentation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-sampling-strategies",
+              "title": "Sampling strategies",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "opentelemetry-otlp",
+              "title": "OTLP",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "prometheus-advanced",
+          "title": "Advanced Prometheus",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "prometheus-advanced-promql-joins",
+              "title": "PromQL joins",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-subqueries",
+              "title": "Subqueries",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-recording-rules",
+              "title": "Recording rules",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-federation",
+              "title": "Federation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-remote-write",
+              "title": "Remote write",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-high-cardinality",
+              "title": "High cardinality",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-alerting-rules",
+              "title": "Alerting rules",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "prometheus-advanced-thanos-concepts",
+              "title": "Thanos concepts",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "grafana",
+          "title": "Grafana engineering",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "grafana-dashboard-design",
+              "title": "Dashboard design",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-variables",
+              "title": "Variables",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-annotations",
+              "title": "Annotations",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-alerting",
+              "title": "Alerting",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-data-sources",
+              "title": "Data sources",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-provisioning-dashboards",
+              "title": "Provisioning dashboards",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-folders-and-permissions",
+              "title": "Folders and permissions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "grafana-slo-dashboards",
+              "title": "SLO dashboards",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "elk",
+          "title": "Elastic/OpenSearch logging",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "elk-log-ingestion",
+              "title": "Log ingestion",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-parsing",
+              "title": "Parsing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-index-lifecycle",
+              "title": "Index lifecycle",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-search-queries",
+              "title": "Search queries",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-dashboards",
+              "title": "Dashboards",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-retention",
+              "title": "Retention",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-scaling",
+              "title": "Scaling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "elk-security",
+              "title": "Security",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "apm",
+          "title": "APM and profiling",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "apm-apm-concepts",
+              "title": "APM concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "apm-continuous-profiling",
+              "title": "Continuous profiling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "apm-cpu-profiling",
+              "title": "CPU profiling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "apm-memory-profiling",
+              "title": "Memory profiling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "apm-flame-graphs",
+              "title": "Flame graphs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "apm-application-performance-troubleshooting",
+              "title": "Application performance troubleshooting",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-architecture",
+      "title": "Cloud Architecture and FinOps",
+      "children": [
+        {
+          "id": "multi-account",
+          "title": "AWS multi-account architecture",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "multi-account-organizations",
+              "title": "Organizations",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-ous",
+              "title": "OUs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-scps",
+              "title": "SCPs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-control-tower-concepts",
+              "title": "Control Tower concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-shared-services",
+              "title": "Shared services",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-account-vending",
+              "title": "Account vending",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "multi-account-central-logging",
+              "title": "Central logging",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "ha-dr",
+          "title": "High availability and disaster recovery",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "ha-dr-rto-and-rpo",
+              "title": "RTO and RPO",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-backup-strategy",
+              "title": "Backup strategy",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-multi-az",
+              "title": "Multi-AZ",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-multi-region",
+              "title": "Multi-region",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-pilot-light",
+              "title": "Pilot light",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-warm-standby",
+              "title": "Warm standby",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-active-active",
+              "title": "Active-active",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "ha-dr-dr-testing",
+              "title": "DR testing",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "finops",
+          "title": "Cloud cost management",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "finops-cost-allocation-tags",
+              "title": "Cost allocation tags",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-budgets",
+              "title": "Budgets",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-cost-explorer",
+              "title": "Cost Explorer",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-savings-plans",
+              "title": "Savings Plans",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-reserved-capacity",
+              "title": "Reserved capacity",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-rightsizing",
+              "title": "Rightsizing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-idle-resource-detection",
+              "title": "Idle resource detection",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "finops-kubernetes-cost-optimization",
+              "title": "Kubernetes cost optimization",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "well-architected",
+          "title": "AWS Well-Architected thinking",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "well-architected-operational-excellence",
+              "title": "Operational excellence",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "well-architected-security",
+              "title": "Security",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "well-architected-reliability",
+              "title": "Reliability",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "well-architected-performance-efficiency",
+              "title": "Performance efficiency",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "well-architected-cost-optimization",
+              "title": "Cost optimization",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "well-architected-sustainability",
+              "title": "Sustainability",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-devsecops",
+      "title": "DevSecOps and Cloud Security",
+      "children": [
+        {
+          "id": "devsecops",
+          "title": "DevSecOps lifecycle",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "devsecops-security-in-sdlc",
+              "title": "Security in SDLC",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devsecops-threat-modeling",
+              "title": "Threat modeling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devsecops-security-gates",
+              "title": "Security gates",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devsecops-shift-left-security",
+              "title": "Shift-left security",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devsecops-security-ownership",
+              "title": "Security ownership",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devsecops-security-exceptions",
+              "title": "Security exceptions",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "sast-dast",
+          "title": "Application security scanning",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "sast-dast-sast",
+              "title": "SAST",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-dast",
+              "title": "DAST",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-dependency-scanning",
+              "title": "Dependency scanning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-secret-scanning",
+              "title": "Secret scanning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-container-scanning",
+              "title": "Container scanning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-iac-scanning",
+              "title": "IaC scanning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "sast-dast-false-positive-handling",
+              "title": "False-positive handling",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "runtime-security",
+          "title": "Runtime security",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "runtime-security-falco-concepts",
+              "title": "Falco concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "runtime-security-kubernetes-audit-logs",
+              "title": "Kubernetes audit logs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "runtime-security-runtime-detection",
+              "title": "Runtime detection",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "runtime-security-least-privilege",
+              "title": "Least privilege",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "runtime-security-pod-security",
+              "title": "Pod security",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "runtime-security-host-hardening",
+              "title": "Host hardening",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "compliance",
+          "title": "Compliance and audit fundamentals",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "compliance-audit-trails",
+              "title": "Audit trails",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "compliance-evidence-collection",
+              "title": "Evidence collection",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "compliance-policy-as-code",
+              "title": "Policy as code",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "compliance-cis-benchmarks",
+              "title": "CIS benchmarks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "compliance-soc-2-concepts",
+              "title": "SOC 2 concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "compliance-change-evidence",
+              "title": "Change evidence",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kubernetes-advanced",
+      "title": "Advanced Kubernetes and Platform Engineering",
+      "children": [
+        {
+          "id": "k8s-networking",
+          "title": "Kubernetes networking deep dive",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "k8s-networking-cni-concepts",
+              "title": "CNI concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-service-networking",
+              "title": "Service networking",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-kube-proxy",
+              "title": "kube-proxy",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-coredns",
+              "title": "CoreDNS",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-networkpolicy",
+              "title": "NetworkPolicy",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-ingress",
+              "title": "Ingress",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-gateway-api",
+              "title": "Gateway API",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-networking-service-mesh-concepts",
+              "title": "Service mesh concepts",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "k8s-scheduling",
+          "title": "Scheduling and resource management",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "k8s-scheduling-requests-and-limits",
+              "title": "Requests and limits",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-qos-classes",
+              "title": "QoS classes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-node-selectors",
+              "title": "Node selectors",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-affinity",
+              "title": "Affinity",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-taints-and-tolerations",
+              "title": "Taints and tolerations",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-priority-classes",
+              "title": "Priority classes",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-scheduling-topology-spread",
+              "title": "Topology spread",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "k8s-security",
+          "title": "Kubernetes security",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "k8s-security-rbac",
+              "title": "RBAC",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-pod-security-standards",
+              "title": "Pod Security Standards",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-admission-controllers",
+              "title": "Admission controllers",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-serviceaccounts",
+              "title": "ServiceAccounts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-networkpolicies",
+              "title": "NetworkPolicies",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-secrets-encryption",
+              "title": "Secrets encryption",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-security-audit-logging",
+              "title": "Audit logging",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "k8s-operators",
+          "title": "Operators and controllers",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "k8s-operators-controller-pattern",
+              "title": "Controller pattern",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-operators-crds",
+              "title": "CRDs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-operators-custom-resources",
+              "title": "Custom resources",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-operators-operator-lifecycle",
+              "title": "Operator lifecycle",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-operators-reconciliation-loop",
+              "title": "Reconciliation loop",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "k8s-operators-operator-sdk-concepts",
+              "title": "Operator SDK concepts",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-engineering",
+          "title": "Internal developer platforms",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "platform-engineering-golden-paths",
+              "title": "Golden paths",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-engineering-self-service-infrastructure",
+              "title": "Self-service infrastructure",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-engineering-platform-apis",
+              "title": "Platform APIs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-engineering-developer-portals",
+              "title": "Developer portals",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-engineering-backstage-concepts",
+              "title": "Backstage concepts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-engineering-platform-slos",
+              "title": "Platform SLOs",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-engineering",
+      "title": "Production Engineering",
+      "children": [
+        {
+          "id": "release-engineering",
+          "title": "Release engineering",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "release-engineering-release-trains",
+              "title": "Release trains",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-semantic-versioning",
+              "title": "Semantic versioning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-release-branches",
+              "title": "Release branches",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-changelogs",
+              "title": "Changelogs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-artifact-promotion",
+              "title": "Artifact promotion",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-rollback-criteria",
+              "title": "Rollback criteria",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "release-engineering-change-windows",
+              "title": "Change windows",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "operational-readiness",
+          "title": "Operational readiness",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "operational-readiness-production-readiness-review",
+              "title": "Production readiness review",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-runbooks",
+              "title": "Runbooks",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-dashboards",
+              "title": "Dashboards",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-alerts",
+              "title": "Alerts",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-capacity-plan",
+              "title": "Capacity plan",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-backup-validation",
+              "title": "Backup validation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "operational-readiness-dependency-mapping",
+              "title": "Dependency mapping",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "performance",
+          "title": "Performance engineering",
+          "hours": 3.5,
+          "children": [
+            {
+              "id": "performance-load-testing",
+              "title": "Load testing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-stress-testing",
+              "title": "Stress testing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-soak-testing",
+              "title": "Soak testing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-benchmarking",
+              "title": "Benchmarking",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-profiling",
+              "title": "Profiling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-latency-analysis",
+              "title": "Latency analysis",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "performance-bottleneck-isolation",
+              "title": "Bottleneck isolation",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "incident-management",
+          "title": "Incident management",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "incident-management-incident-command",
+              "title": "Incident command",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "incident-management-escalation",
+              "title": "Escalation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "incident-management-stakeholder-communication",
+              "title": "Stakeholder communication",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "incident-management-mitigation-vs-remediation",
+              "title": "Mitigation vs remediation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "incident-management-status-pages",
+              "title": "Status pages",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "incident-management-post-incident-review",
+              "title": "Post-incident review",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "toil-automation",
+          "title": "Toil and automation",
+          "hours": 2.5,
+          "children": [
+            {
+              "id": "toil-automation-toil-identification",
+              "title": "Toil identification",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "toil-automation-automation-candidates",
+              "title": "Automation candidates",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "toil-automation-runbook-automation",
+              "title": "Runbook automation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "toil-automation-self-service-operations",
+              "title": "Self-service operations",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "toil-automation-measuring-automation-impact",
+              "title": "Measuring automation impact",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design for DevOps/SRE",
+      "children": [
+        {
+          "id": "design-fundamentals",
+          "title": "System design fundamentals",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "design-fundamentals-requirements-gathering",
+              "title": "Requirements gathering",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "design-fundamentals-functional-vs-non-functional-requirements",
+              "title": "Functional vs non-functional requirements",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "design-fundamentals-capacity-estimation",
+              "title": "Capacity estimation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "design-fundamentals-availability-calculations",
+              "title": "Availability calculations",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "design-fundamentals-latency-budgets",
+              "title": "Latency budgets",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "design-fundamentals-trade-off-analysis",
+              "title": "Trade-off analysis",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "scalable-systems",
+          "title": "Scalable system patterns",
+          "hours": 4.0,
+          "children": [
+            {
+              "id": "scalable-systems-load-balancing",
+              "title": "Load balancing",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-caching",
+              "title": "Caching",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-cdns",
+              "title": "CDNs",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-queues",
+              "title": "Queues",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-database-scaling",
+              "title": "Database scaling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-horizontal-scaling",
+              "title": "Horizontal scaling",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-partitioning",
+              "title": "Partitioning",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "scalable-systems-replication",
+              "title": "Replication",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "reliable-systems",
+          "title": "Reliable architecture",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "reliable-systems-redundancy",
+              "title": "Redundancy",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "reliable-systems-failure-domains",
+              "title": "Failure domains",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "reliable-systems-graceful-degradation",
+              "title": "Graceful degradation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "reliable-systems-disaster-recovery",
+              "title": "Disaster recovery",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "reliable-systems-multi-region",
+              "title": "Multi-region",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "reliable-systems-dependency-isolation",
+              "title": "Dependency isolation",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "platform-design",
+          "title": "Platform architecture",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "platform-design-ci-cd-platform-design",
+              "title": "CI/CD platform design",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-design-kubernetes-platform-design",
+              "title": "Kubernetes platform design",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-design-observability-platform",
+              "title": "Observability platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-design-secrets-platform",
+              "title": "Secrets platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-design-infrastructure-platform",
+              "title": "Infrastructure platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "platform-design-multi-tenant-design",
+              "title": "Multi-tenant design",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "architecture-diagrams",
+          "title": "Architecture communication",
+          "hours": 2.5,
+          "children": [
+            {
+              "id": "architecture-diagrams-c4-model",
+              "title": "C4 model",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "architecture-diagrams-deployment-diagrams",
+              "title": "Deployment diagrams",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "architecture-diagrams-sequence-diagrams",
+              "title": "Sequence diagrams",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "architecture-diagrams-data-flow-diagrams",
+              "title": "Data-flow diagrams",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "architecture-diagrams-threat-diagrams",
+              "title": "Threat diagrams",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interview-projects",
+      "title": "Projects and Interview Preparation",
+      "children": [
+        {
+          "id": "portfolio-projects",
+          "title": "Production-grade projects",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "portfolio-projects-three-tier-application",
+              "title": "Three-tier application",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-containerized-microservices",
+              "title": "Containerized microservices",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-aws-infrastructure-with-terraform",
+              "title": "AWS infrastructure with Terraform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-kubernetes-deployment",
+              "title": "Kubernetes deployment",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-ci-cd-pipeline",
+              "title": "CI/CD pipeline",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-gitops-deployment",
+              "title": "GitOps deployment",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-observability-stack",
+              "title": "Observability stack",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-security-pipeline",
+              "title": "Security pipeline",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "portfolio-projects-disaster-recovery-exercise",
+              "title": "Disaster recovery exercise",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "troubleshooting-interviews",
+          "title": "Troubleshooting interview scenarios",
+          "hours": 4.5,
+          "children": [
+            {
+              "id": "troubleshooting-interviews-high-cpu-incident",
+              "title": "High CPU incident",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-memory-leak-oom",
+              "title": "Memory leak/OOM",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-disk-full",
+              "title": "Disk full",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-pod-crashloopbackoff",
+              "title": "Pod CrashLoopBackOff",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-imagepullbackoff",
+              "title": "ImagePullBackOff",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-dns-failure",
+              "title": "DNS failure",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-503-from-load-balancer",
+              "title": "503 from load balancer",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-database-connection-exhaustion",
+              "title": "Database connection exhaustion",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "troubleshooting-interviews-deployment-rollback",
+              "title": "Deployment rollback",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "devops-interviews",
+          "title": "DevOps interview domains",
+          "hours": 5.0,
+          "children": [
+            {
+              "id": "devops-interviews-linux-questions",
+              "title": "Linux questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-networking-questions",
+              "title": "Networking questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-aws-questions",
+              "title": "AWS questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-docker-questions",
+              "title": "Docker questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-kubernetes-questions",
+              "title": "Kubernetes questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-terraform-questions",
+              "title": "Terraform questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-ci-cd-questions",
+              "title": "CI/CD questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-security-questions",
+              "title": "Security questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-observability-questions",
+              "title": "Observability questions",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "devops-interviews-sre-questions",
+              "title": "SRE questions",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "system-design-interviews",
+          "title": "System design interview practice",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "system-design-interviews-design-a-deployment-platform",
+              "title": "Design a deployment platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "system-design-interviews-design-centralized-logging",
+              "title": "Design centralized logging",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "system-design-interviews-design-monitoring-platform",
+              "title": "Design monitoring platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "system-design-interviews-design-scalable-api-platform",
+              "title": "Design scalable API platform",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "system-design-interviews-design-multi-region-application",
+              "title": "Design multi-region application",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "system-design-interviews-design-ci-cd-at-scale",
+              "title": "Design CI/CD at scale",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "behavioral",
+          "title": "Engineering communication",
+          "hours": 3.0,
+          "children": [
+            {
+              "id": "behavioral-incident-explanation",
+              "title": "Incident explanation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "behavioral-project-walkthrough",
+              "title": "Project walkthrough",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "behavioral-star-method",
+              "title": "STAR method",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "behavioral-trade-off-explanation",
+              "title": "Trade-off explanation",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "behavioral-failure-and-learning-discussion",
+              "title": "Failure and learning discussion",
+              "hours": 1.0,
+              "children": []
+            },
+            {
+              "id": "behavioral-ownership-examples",
+              "title": "Ownership examples",
+              "hours": 1.0,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

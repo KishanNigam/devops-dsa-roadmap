@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Engineering Roadmap: DevOps, SRE and DSA</title>
+  <meta name="description" content="A local learning dashboard that tracks progress from zero to senior DevOps/SRE and top-tier interviews.">
+
+  <!-- Sets data-theme before first paint so the page never flashes the wrong theme. -->
+  <script src="js/theme-init.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Icon sprite: every icon in the app is <svg class="icon"><use href="#i-name"/></svg> -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-dashboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h7v9H3zM14 3h7v5h-7zM14 12h7v9h-7zM3 16h7v5H3z"/></symbol>
+      <symbol id="i-roadmap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h8a3 3 0 0 0 0-6H8a3 3 0 0 1 0-6h8"/></symbol>
+      <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></symbol>
+      <symbol id="i-box" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8 12 3 3 8v8l9 5 9-5zM3 8l9 5 9-5M12 13v8"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol>
+      <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+      <symbol id="i-save" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h11l3 3v15H5zM8 3v6h8V3M8 21v-7h8v7"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></symbol>
+      <symbol id="i-upload" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3m0 0L8 7m4-4 4 4M4 21h16"/></symbol>
+      <symbol id="i-reset" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8M3 3v5h5"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></symbol>
+      <symbol id="i-note" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h10l4 4v14H5zM14 3v5h5M8 13h8M8 17h5"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="app" id="app">
+
+    <!-- ===== Sidebar ===== -->
+    <aside class="sidebar" id="sidebar" aria-label="Primary">
+      <div class="sidebar__brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div class="brand-text">
+          <strong>Engineering Roadmap</strong>
+          <span>DevOps, SRE and DSA</span>
+        </div>
+        <button class="icon-btn sidebar__close" type="button" data-action="close-sidebar" aria-label="Close menu">
+          <svg class="icon"><use href="#i-close"/></svg>
+        </button>
+      </div>
+
+      <nav class="nav" id="nav">
+        <a class="nav__link" href="#/dashboard" data-route="dashboard"><svg class="icon"><use href="#i-dashboard"/></svg><span>Dashboard</span></a>
+        <a class="nav__link" href="#/devops"    data-route="devops"><svg class="icon"><use href="#i-roadmap"/></svg><span>DevOps Roadmap</span></a>
+        <a class="nav__link" href="#/dsa"       data-route="dsa"><svg class="icon"><use href="#i-code"/></svg><span>DSA Roadmap</span></a>
+        <a class="nav__link" href="#/projects"  data-route="projects"><svg class="icon"><use href="#i-box"/></svg><span>Projects</span></a>
+        <a class="nav__link" href="#/interview" data-route="interview"><svg class="icon"><use href="#i-chat"/></svg><span>Interview</span></a>
+        <a class="nav__link" href="#/progress"  data-route="progress"><svg class="icon"><use href="#i-chart"/></svg><span>Progress</span></a>
+      </nav>
+
+      <!-- Filled by js/views/dashboard.js; shows both roadmaps at a glance -->
+      <div class="sidebar__summary" id="sidebar-summary" aria-live="polite"></div>
+
+      <div class="sidebar__foot">
+        <p class="backup-status" id="backup-status"></p>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" data-action="close-sidebar" hidden></div>
+
+    <!-- ===== Main column ===== -->
+    <div class="main-col">
+      <header class="topbar">
+        <button class="icon-btn topbar__menu" type="button" data-action="open-sidebar" aria-label="Open menu" aria-controls="sidebar">
+          <svg class="icon"><use href="#i-menu"/></svg>
+        </button>
+
+        <label class="search" for="global-search">
+          <svg class="icon"><use href="#i-search"/></svg>
+          <input id="global-search" type="search" placeholder="Search phases, topics and subtopics" autocomplete="off" spellcheck="false">
+          <kbd class="search__hint" aria-hidden="true">/</kbd>
+        </label>
+
+        <div class="topbar__actions">
+          <button class="icon-btn" type="button" id="theme-toggle" data-action="toggle-theme" aria-label="Switch to dark theme">
+            <svg class="icon icon--light-only"><use href="#i-moon"/></svg>
+            <svg class="icon icon--dark-only"><use href="#i-sun"/></svg>
+          </button>
+
+          <div class="menu">
+            <button class="btn" type="button" id="data-menu-btn" aria-haspopup="true" aria-expanded="false" aria-controls="data-menu">
+              <svg class="icon"><use href="#i-save"/></svg>
+              <span>Data</span>
+            </button>
+            <div class="menu__panel" id="data-menu" role="menu" hidden>
+              <button role="menuitem" type="button" data-action="save-now"><svg class="icon"><use href="#i-save"/></svg>Save progress</button>
+              <button role="menuitem" type="button" data-action="export-progress"><svg class="icon"><use href="#i-download"/></svg>Export progress (JSON)</button>
+              <button role="menuitem" type="button" data-action="export-bundle"><svg class="icon"><use href="#i-download"/></svg>Export roadmap and progress</button>
+              <button role="menuitem" type="button" data-action="import-progress"><svg class="icon"><use href="#i-upload"/></svg>Import progress (JSON)</button>
+              <hr>
+              <button role="menuitem" type="button" class="is-danger" data-action="reset-progress"><svg class="icon"><use href="#i-reset"/></svg>Reset all progress</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main" id="main" tabindex="-1">
+
+        <!-- Shown by js/main.js if data fails to load (usually: opened via file:// instead of a local server) -->
+        <div class="boot-error" id="boot-error" role="alert" hidden>
+          <h1>The roadmap data could not be loaded</h1>
+          <p id="boot-error-detail">Browsers block local JSON files when a page is opened by double-clicking it.</p>
+          <p>Start the local server from the project folder, then open the address it prints:</p>
+          <pre><code>python3 -m http.server 8000
+# then open http://localhost:8000</code></pre>
+          <p>Keep the same port every time, because browser storage is tied to the address.</p>
+        </div>
+
+        <noscript>
+          <div class="boot-error"><h1>JavaScript is required</h1><p>This dashboard renders its roadmap from JSON in the browser.</p></div>
+        </noscript>
+
+        <div class="boot-loading" id="boot-loading" aria-live="polite">Loading roadmap</div>
+
+        <!-- One container per tab. js/main.js shows the active one; each view module renders into its own. -->
+        <section class="view" id="view-dashboard" data-view="dashboard" aria-labelledby="title-dashboard" hidden></section>
+        <section class="view" id="view-devops"    data-view="devops"    aria-labelledby="title-devops"    hidden></section>
+        <section class="view" id="view-dsa"       data-view="dsa"       aria-labelledby="title-dsa"       hidden></section>
+        <section class="view" id="view-projects"  data-view="projects"  aria-labelledby="title-projects"  hidden></section>
+        <section class="view" id="view-interview" data-view="interview" aria-labelledby="title-interview" hidden></section>
+        <section class="view" id="view-progress"  data-view="progress"  aria-labelledby="title-progress"  hidden></section>
+      </main>
+    </div>
+
+    <!-- ===== Detail drawer: notes, personal comments, per-item metadata ===== -->
+    <aside class="drawer" id="drawer" aria-label="Item details" aria-hidden="true" hidden></aside>
+  </div>
+
+  <!-- Hidden file input used by "Import progress" -->
+  <input type="file" id="import-file" accept="application/json,.json" hidden>
+
+  <!-- Reusable confirmation dialog (reset, import-replace) -->
+  <dialog class="dialog" id="confirm-dialog" aria-labelledby="confirm-title">
+    <form method="dialog">
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-body"></p>
+      <div class="dialog__actions">
+        <button class="btn" type="submit" value="cancel">Cancel</button>
+        <button class="btn btn--primary" type="submit" id="confirm-ok" value="ok">Confirm</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Toasts: "Progress saved", "Imported 212 items", errors with a next step -->
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

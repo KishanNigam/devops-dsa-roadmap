@@ -1,0 +1,34 @@
+{
+  "id": "interview",
+  "title": "Interview Preparation",
+  "children": [
+    {
+      "id": "resume-and-story",
+      "title": "Resume and storytelling",
+      "children": [
+        {"id": "resume-structure", "title": "Structure a clear resume story", "hours": 1.5, "children": []},
+        {"id": "impact-statements", "title": "Write measurable impact statements", "hours": 1.0, "children": []},
+        {"id": "star-answer", "title": "Use STAR for behavioral questions", "hours": 1.0, "children": []}
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System design",
+      "children": [
+        {"id": "design-scalability", "title": "Principles of scalable design", "hours": 2.0, "children": []},
+        {"id": "design-databases", "title": "Choose storage and caching layers", "hours": 2.0, "children": []},
+        {"id": "design-queueing", "title": "Queueing and async architecture", "hours": 2.0, "children": []}
+      ]
+    },
+    {
+      "id": "coding-rounds",
+      "title": "Coding interview practice",
+      "children": [
+        {"id": "pattern-bruteforce", "title": "Brute force and optimization", "hours": 1.5, "children": []},
+        {"id": "pattern-sliding-window", "title": "Sliding window and two pointers", "hours": 1.5, "children": []},
+        {"id": "pattern-graph", "title": "Graph DFS and BFS patterns", "hours": 2.0, "children": []},
+        {"id": "pattern-dp", "title": "Dynamic programming patterns", "hours": 2.0, "children": []}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+{
+  "id": "dsa",
+  "title": "Data Structures and Algorithms",
+  "children": [
+    {
+      "id": "zero-to-code",
+      "title": "Zero to programming basics",
+      "children": [
+        {
+          "id": "computer-basics",
+          "title": "Computer fundamentals and execution model",
+          "hours": 1.0,
+          "children": [
+            {"id": "computer-fundamentals-computer-architecture", "title": "Computer fundamentals and architecture", "hours": 0.5, "children": []},
+            {"id": "computer-fundamentals-how-programs-execute", "title": "How programs execute in memory", "hours": 0.5, "children": []},
+            {"id": "computer-fundamentals-os-memory-and-processes", "title": "Operating system and memory fundamentals", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "programming-core",
+          "title": "Core Python programming concepts",
+          "hours": 1.0,
+          "children": [
+            {"id": "programming-core-variables", "title": "Variables and assignment", "hours": 0.5, "children": []},
+            {"id": "programming-core-data-types", "title": "Python data types", "hours": 0.5, "children": []},
+            {"id": "programming-core-operators", "title": "Operators and expressions", "hours": 0.5, "children": []},
+            {"id": "programming-core-input-output", "title": "Input and output patterns", "hours": 0.5, "children": []},
+            {"id": "programming-core-conditions-loops", "title": "Conditions, loops and iteration", "hours": 0.5, "children": []},
+            {"id": "programming-core-functions-scope", "title": "Functions, parameters and scope", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "python-fundamentals",
+          "title": "Python data structures and clean coding",
+          "hours": 1.5,
+          "children": [
+            {"id": "python-fundamentals-python-lists", "title": "Python lists and list operations", "hours": 0.5, "children": []},
+            {"id": "python-fundamentals-python-tuples", "title": "Python tuples and immutable patterns", "hours": 0.5, "children": []},
+            {"id": "python-fundamentals-python-sets", "title": "Python sets and uniqueness", "hours": 0.5, "children": []},
+            {"id": "python-fundamentals-python-dictionaries", "title": "Python dictionaries and lookups", "hours": 0.5, "children": []},
+            {"id": "python-fundamentals-strings", "title": "String operations and methods", "hours": 0.5, "children": []},
+            {"id": "python-fundamentals-list-comprehensions", "title": "List comprehensions and Pythonic patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "debugging",
+          "title": "Debugging, problem solving and complexity",
+          "hours": 1.0,
+          "children": [
+            {"id": "debugging-recursion-introduction", "title": "Recursion introduction", "hours": 0.5, "children": []},
+            {"id": "debugging-exceptions", "title": "Exceptions and error handling", "hours": 0.5, "children": []},
+            {"id": "debugging-how-to-debug", "title": "Debugging and tracing code", "hours": 0.5, "children": []},
+            {"id": "debugging-reading-errors", "title": "Reading Python errors and tracebacks", "hours": 0.5, "children": []},
+            {"id": "debugging-clean-solutions", "title": "Writing clean and readable solutions", "hours": 0.5, "children": []},
+            {"id": "problem-solving-basic", "title": "Basic problem solving workflow", "hours": 0.5, "children": []},
+            {"id": "complexity-time", "title": "Time complexity analysis", "hours": 0.5, "children": []},
+            {"id": "complexity-space", "title": "Space complexity analysis", "hours": 0.5, "children": []},
+            {"id": "big-o-patterns", "title": "Big-O notation and common patterns", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays-strings",
+      "title": "Arrays and strings",
+      "children": [
+        {
+          "id": "array-basics",
+          "title": "Array fundamentals and indexing",
+          "hours": 1.5,
+          "children": [
+            {"id": "array-traversal", "title": "Array traversal techniques", "hours": 0.5, "children": []},
+            {"id": "array-indexing", "title": "Indexing and addressing", "hours": 0.5, "children": []},
+            {"id": "array-insertion-deletion", "title": "Insertion and deletion concepts", "hours": 0.5, "children": []},
+            {"id": "array-in-place", "title": "In-place operations", "hours": 0.5, "children": []},
+            {"id": "array-reverse", "title": "Reverse array patterns", "hours": 0.5, "children": []},
+            {"id": "array-rotate", "title": "Rotate array strategies", "hours": 0.5, "children": []},
+            {"id": "matrix-basics", "title": "Matrix basics and 2D arrays", "hours": 0.5, "children": []},
+            {"id": "matrix-traversal", "title": "Matrix traversal patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "string-parsing",
+          "title": "String traversal and pattern matching",
+          "hours": 1.5,
+          "children": [
+            {"id": "string-traversal", "title": "String traversal and indexing", "hours": 0.5, "children": []},
+            {"id": "character-frequency", "title": "Character frequency counting", "hours": 0.5, "children": []},
+            {"id": "palindrome-strings", "title": "Palindrome and string reversal", "hours": 0.5, "children": []},
+            {"id": "string-pattern-matching", "title": "Pattern matching and substring search", "hours": 0.5, "children": []},
+            {"id": "substring-problems", "title": "Substring and window-based string problems", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "prefix-suffix",
+          "title": "Prefix, suffix and sliding window",
+          "hours": 2.0,
+          "children": [
+            {"id": "prefix-sum", "title": "Prefix sums", "hours": 0.5, "children": []},
+            {"id": "suffix-sum", "title": "Suffix sums", "hours": 0.5, "children": []},
+            {"id": "difference-array", "title": "Difference array technique", "hours": 0.5, "children": []},
+            {"id": "fixed-window", "title": "Fixed window patterns", "hours": 0.5, "children": []},
+            {"id": "variable-window", "title": "Variable window patterns", "hours": 0.5, "children": []},
+            {"id": "subarray-problems", "title": "Subarray problem templates", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "two-pointers",
+          "title": "Two pointers and sorted arrays",
+          "hours": 2.0,
+          "children": [
+            {"id": "two-pointer-basics", "title": "Two pointers overview", "hours": 0.5, "children": []},
+            {"id": "fast-slow-pointers", "title": "Fast and slow pointer patterns", "hours": 0.5, "children": []},
+            {"id": "sliding-window-arrays", "title": "Sliding window on arrays", "hours": 0.5, "children": []},
+            {"id": "array-sorted-logic", "title": "Sorted array techniques", "hours": 0.5, "children": []},
+            {"id": "spiral-matrix", "title": "Spiral matrix traversal", "hours": 0.5, "children": []},
+            {"id": "transpose-matrix", "title": "Transpose and matrix transforms", "hours": 0.5, "children": []},
+            {"id": "interval-basics", "title": "Interval basics and overlap logic", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hashing-sets",
+      "title": "Hashing and sets",
+      "children": [
+        {
+          "id": "hashing-fundamentals",
+          "title": "Hash maps and hash sets",
+          "hours": 1.5,
+          "children": [
+            {"id": "hash-map-basics", "title": "Hash map fundamentals", "hours": 0.5, "children": []},
+            {"id": "hash-set-basics", "title": "Hash set fundamentals", "hours": 0.5, "children": []},
+            {"id": "frequency-counting", "title": "Frequency counting patterns", "hours": 0.5, "children": []},
+            {"id": "duplicate-detection", "title": "Duplicate detection with hashing", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "frequency-counts",
+          "title": "Frequency counting patterns",
+          "hours": 1.5,
+          "children": [
+            {"id": "complement-lookup", "title": "Complement lookup and two-sum logic", "hours": 0.5, "children": []},
+            {"id": "anagram-detection", "title": "Anagram detection", "hours": 0.5, "children": []},
+            {"id": "grouping-patterns", "title": "Grouping and bucket-style patterns", "hours": 0.5, "children": []},
+            {"id": "counting-patterns", "title": "Counting patterns and frequency maps", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "anagram-patterns",
+          "title": "Anagrams and group problems",
+          "hours": 1.5,
+          "children": [
+            {"id": "anagram-groups", "title": "Group anagrams efficiently", "hours": 0.5, "children": []},
+            {"id": "unique-frequency-checks", "title": "Frequency checks and uniqueness", "hours": 0.5, "children": []},
+            {"id": "hashing-for-strings", "title": "Hashing for string comparison", "hours": 0.5, "children": []},
+            {"id": "longest-consecutive", "title": "Longest consecutive sequence", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "subarray-hash",
+          "title": "Hashing for subarray checks",
+          "hours": 1.5,
+          "children": [
+            {"id": "prefix-sum-hash", "title": "Prefix sum with hashing", "hours": 0.5, "children": []},
+            {"id": "subarray-sum-hash", "title": "Subarray sum using hash maps", "hours": 0.5, "children": []},
+            {"id": "window-hash", "title": "Window-based hash patterns", "hours": 0.5, "children": []},
+            {"id": "hashing-practice", "title": "Interview practice with hashing", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linear-structures",
+      "title": "Linked lists, stacks and queues",
+      "children": [
+        {
+          "id": "linked-list-basics",
+          "title": "Linked list basics and traversals",
+          "hours": 1.5,
+          "children": [
+            {"id": "linked-list-node-structure", "title": "Node structure and references", "hours": 0.5, "children": []},
+            {"id": "linked-list-traversal", "title": "Traversal and pointer movement", "hours": 0.5, "children": []},
+            {"id": "linked-list-insertion", "title": "Insertion and deletion patterns", "hours": 0.5, "children": []},
+            {"id": "linked-list-reverse", "title": "Reverse linked list", "hours": 0.5, "children": []},
+            {"id": "linked-list-middle", "title": "Middle node and fast-slow patterns", "hours": 0.5, "children": []},
+            {"id": "linked-list-cycle", "title": "Cycle detection and Floyd algorithm", "hours": 0.5, "children": []},
+            {"id": "linked-list-merge", "title": "Merge and intersection problems", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "stack-principles",
+          "title": "Stack operations and usage",
+          "hours": 1.5,
+          "children": [
+            {"id": "stack-operations", "title": "Stack push, pop and peek operations", "hours": 0.5, "children": []},
+            {"id": "balanced-parentheses", "title": "Balanced parentheses and validation", "hours": 0.5, "children": []},
+            {"id": "expression-problems", "title": "Expression and parser problems", "hours": 0.5, "children": []},
+            {"id": "monotonic-stack-basic", "title": "Monotonic stack fundamentals", "hours": 0.5, "children": []},
+            {"id": "next-greater", "title": "Next greater and previous greater", "hours": 0.5, "children": []},
+            {"id": "next-smaller", "title": "Next smaller and histogram problems", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "queue-principles",
+          "title": "Queue operations and usage",
+          "hours": 1.5,
+          "children": [
+            {"id": "queue-operations", "title": "Queue operations and usage", "hours": 0.5, "children": []},
+            {"id": "deque-patterns", "title": "Deque and double-ended queue", "hours": 0.5, "children": []},
+            {"id": "circular-queue", "title": "Circular queue design", "hours": 0.5, "children": []},
+            {"id": "bfs-foundation", "title": "BFS foundation using queues", "hours": 0.5, "children": []},
+            {"id": "monotonic-deque", "title": "Monotonic deque patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "monotonic-stack",
+          "title": "Monotonic stacks and deque patterns",
+          "hours": 2.0,
+          "children": [
+            {"id": "monotonic-stack-range", "title": "Monotonic stack range queries", "hours": 0.5, "children": []},
+            {"id": "max-area-histogram", "title": "Largest rectangle in histogram", "hours": 0.5, "children": []},
+            {"id": "stock-span", "title": "Stock span and nearest greater problems", "hours": 0.5, "children": []},
+            {"id": "deque-window-max", "title": "Sliding window maximum with deque", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trees-graphs",
+      "title": "Trees, heaps and graphs",
+      "children": [
+        {
+          "id": "tree-traversal",
+          "title": "Tree traversals and recursion",
+          "hours": 1.5,
+          "children": [
+            {"id": "tree-representation", "title": "Binary tree representation", "hours": 0.5, "children": []},
+            {"id": "preorder-traversal", "title": "Preorder traversal", "hours": 0.5, "children": []},
+            {"id": "inorder-traversal", "title": "Inorder traversal", "hours": 0.5, "children": []},
+            {"id": "postorder-traversal", "title": "Postorder traversal", "hours": 0.5, "children": []},
+            {"id": "level-order", "title": "Level order traversal", "hours": 0.5, "children": []},
+            {"id": "tree-height-depth", "title": "Height, depth and diameter", "hours": 0.5, "children": []},
+            {"id": "tree-balanced", "title": "Balanced tree checks", "hours": 0.5, "children": []},
+            {"id": "tree-path-problems", "title": "Path and LCA problems", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "binary-search-tree",
+          "title": "BST properties and operations",
+          "hours": 1.5,
+          "children": [
+            {"id": "bst-properties", "title": "BST properties", "hours": 0.5, "children": []},
+            {"id": "bst-search", "title": "Search and lookup", "hours": 0.5, "children": []},
+            {"id": "bst-insertion", "title": "Insertion and deletion", "hours": 0.5, "children": []},
+            {"id": "bst-validation", "title": "Valid BST checks", "hours": 0.5, "children": []},
+            {"id": "bst-kth-smallest", "title": "Kth smallest and predecessor-successor", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "heap-usage",
+          "title": "Heaps, priority queues and top-k",
+          "hours": 1.5,
+          "children": [
+            {"id": "heap-concepts", "title": "Min heap and max heap basics", "hours": 0.5, "children": []},
+            {"id": "heap-operations", "title": "Heap push, pop and heapify", "hours": 0.5, "children": []},
+            {"id": "priority-queue", "title": "Priority queue patterns", "hours": 0.5, "children": []},
+            {"id": "top-k", "title": "Top K and kth largest or smallest", "hours": 0.5, "children": []},
+            {"id": "merge-k-sorted", "title": "Merge K sorted lists", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "graph-traversal",
+          "title": "Graph traversal and shortest path",
+          "hours": 2.0,
+          "children": [
+            {"id": "graph-representation", "title": "Graph representation and adjacency list", "hours": 0.5, "children": []},
+            {"id": "adjacency-matrix", "title": "Adjacency matrix and alternatives", "hours": 0.5, "children": []},
+            {"id": "bfs-graph", "title": "BFS traversal", "hours": 0.5, "children": []},
+            {"id": "dfs-graph", "title": "DFS traversal and visited sets", "hours": 0.5, "children": []},
+            {"id": "connected-components", "title": "Connected components and cycle detection", "hours": 0.5, "children": []},
+            {"id": "topological-sort", "title": "Topological sort on DAGs", "hours": 0.5, "children": []},
+            {"id": "shortest-path-basics", "title": "Shortest path basics", "hours": 0.5, "children": []},
+            {"id": "dijkstra", "title": "Dijkstra and Bellman-Ford", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "union-find",
+          "title": "Union-find and connected components",
+          "hours": 1.5,
+          "children": [
+            {"id": "union-find-basics", "title": "Union-Find basics and DSU", "hours": 0.5, "children": []},
+            {"id": "connected-components-uf", "title": "Connected components with DSU", "hours": 0.5, "children": []},
+            {"id": "minimum-spanning-tree", "title": "Minimum spanning tree with Kruskal and Prim", "hours": 0.5, "children": []},
+            {"id": "union-find-practice", "title": "Union-Find interview patterns", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recursion-combinatorics",
+      "title": "Recursion, backtracking and divide and conquer",
+      "children": [
+        {
+          "id": "recursion-basis",
+          "title": "Recursion fundamentals and base cases",
+          "hours": 1.5,
+          "children": [
+            {"id": "recursion-mental-model", "title": "Recursion mental model", "hours": 0.5, "children": []},
+            {"id": "base-case-design", "title": "Base case design", "hours": 0.5, "children": []},
+            {"id": "call-stack", "title": "Call stack and recursion tracing", "hours": 0.5, "children": []},
+            {"id": "factorial-fibonacci", "title": "Factorial and Fibonacci recursion", "hours": 0.5, "children": []},
+            {"id": "recursion-on-arrays", "title": "Recursion on arrays and strings", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "backtracking",
+          "title": "Backtracking state exploration",
+          "hours": 2.0,
+          "children": [
+            {"id": "backtracking-template", "title": "Backtracking template", "hours": 0.5, "children": []},
+            {"id": "subsets-subsequences", "title": "Subsets and subsequences", "hours": 0.5, "children": []},
+            {"id": "permutations-combinations", "title": "Permutations and combinations", "hours": 0.5, "children": []},
+            {"id": "combination-sum", "title": "Combination sum and constraints", "hours": 0.5, "children": []},
+            {"id": "n-queens", "title": "N-Queens and constraint problems", "hours": 0.5, "children": []},
+            {"id": "sudoku-maze", "title": "Sudoku and maze backtracking", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "divide-conquer",
+          "title": "Divide and conquer strategy",
+          "hours": 1.5,
+          "children": [
+            {"id": "divide-and-conquer-mental-model", "title": "Divide and conquer mental model", "hours": 0.5, "children": []},
+            {"id": "merge-sort", "title": "Merge sort", "hours": 0.5, "children": []},
+            {"id": "quicksort", "title": "Quicksort and partitioning", "hours": 0.5, "children": []},
+            {"id": "closest-problems", "title": "Divide and conquer problem patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "binary-search",
+          "title": "Binary search and search space",
+          "hours": 1.5,
+          "children": [
+            {"id": "binary-search-foundation", "title": "Binary search foundation", "hours": 0.5, "children": []},
+            {"id": "binary-search-variants", "title": "Lower bound and upper bound", "hours": 0.5, "children": []},
+            {"id": "binary-search-answer", "title": "Binary search on answer", "hours": 0.5, "children": []},
+            {"id": "search-space-problems", "title": "Search space optimization problems", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "greedy-dp",
+      "title": "Greedy, sorting and dynamic programming",
+      "children": [
+        {
+          "id": "sorting-basics",
+          "title": "Sorting and comparison patterns",
+          "hours": 1.5,
+          "children": [
+            {"id": "bubble-sort", "title": "Bubble sort", "hours": 0.5, "children": []},
+            {"id": "selection-sort", "title": "Selection sort", "hours": 0.5, "children": []},
+            {"id": "insertion-sort", "title": "Insertion sort", "hours": 0.5, "children": []},
+            {"id": "merge-sort-greedy", "title": "Merge sort and complexity", "hours": 0.5, "children": []},
+            {"id": "counting-sort", "title": "Counting sort and stable vs unstable sorting", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "greedy-principles",
+          "title": "Greedy choice and interval problems",
+          "hours": 2.0,
+          "children": [
+            {"id": "greedy-mental-model", "title": "Greedy mental model", "hours": 0.5, "children": []},
+            {"id": "activity-selection", "title": "Activity selection", "hours": 0.5, "children": []},
+            {"id": "interval-scheduling", "title": "Interval scheduling and merge intervals", "hours": 0.5, "children": []},
+            {"id": "meeting-rooms", "title": "Meeting rooms and scheduling", "hours": 0.5, "children": []},
+            {"id": "fractional-knapsack", "title": "Fractional knapsack", "hours": 0.5, "children": []},
+            {"id": "job-sequencing", "title": "Job sequencing and optimization", "hours": 0.5, "children": []},
+            {"id": "minimum-platforms", "title": "Minimum platforms and greedy intervals", "hours": 0.5, "children": []},
+            {"id": "huffman-coding", "title": "Huffman coding basics", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "dp-foundations",
+          "title": "DP state, transitions and memoization",
+          "hours": 2.0,
+          "children": [
+            {"id": "dp-memoization-basics", "title": "Recursion to memoization", "hours": 0.5, "children": []},
+            {"id": "dp-overlapping-subproblems", "title": "Overlapping subproblems and optimal substructure", "hours": 0.5, "children": []},
+            {"id": "dp-state-definition", "title": "State definition and transitions", "hours": 0.5, "children": []},
+            {"id": "dp-top-down", "title": "Top-down DP", "hours": 0.5, "children": []},
+            {"id": "dp-bottom-up", "title": "Bottom-up DP", "hours": 0.5, "children": []},
+            {"id": "dp-1d-2d", "title": "1D and 2D DP patterns", "hours": 0.5, "children": []},
+            {"id": "fibonacci-dp", "title": "Fibonacci DP and counting paths", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "knapsack-patterns",
+          "title": "Knapsack and sequence DP",
+          "hours": 2.0,
+          "children": [
+            {"id": "climbing-stairs-dp", "title": "Climbing stairs", "hours": 0.5, "children": []},
+            {"id": "house-robber", "title": "House robber", "hours": 0.5, "children": []},
+            {"id": "coin-change", "title": "Coin change", "hours": 0.5, "children": []},
+            {"id": "knapsack-01", "title": "0/1 knapsack", "hours": 0.5, "children": []},
+            {"id": "knapsack-unbounded", "title": "Unbounded knapsack", "hours": 0.5, "children": []},
+            {"id": "subset-sum", "title": "Subset sum and partition DP", "hours": 0.5, "children": []},
+            {"id": "lis-lcs", "title": "LIS, LCS and edit distance", "hours": 0.5, "children": []},
+            {"id": "grid-interval-dp", "title": "Grid DP and interval DP", "hours": 0.5, "children": []},
+            {"id": "stock-dp", "title": "Stock trading DP", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-dsa",
+      "title": "Advanced DSA and interviews",
+      "children": [
+        {
+          "id": "advanced-graphs",
+          "title": "Advanced graph algorithms",
+          "hours": 2.0,
+          "children": [
+            {"id": "advanced-graph-shortest-path", "title": "Advanced shortest path algorithms", "hours": 0.5, "children": []},
+            {"id": "floyd-warshall", "title": "Floyd-Warshall and APSP", "hours": 0.5, "children": []},
+            {"id": "mst-advanced", "title": "Advanced MST and DSU optimization", "hours": 0.5, "children": []},
+            {"id": "dag-problems", "title": "DAG and dynamic graph reasoning", "hours": 0.5, "children": []},
+            {"id": "advanced-graph-practice", "title": "Advanced graph interview patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "advanced-dp",
+          "title": "Advanced DP and optimization",
+          "hours": 2.0,
+          "children": [
+            {"id": "tree-dp", "title": "Tree DP", "hours": 0.5, "children": []},
+            {"id": "bitmask-dp", "title": "Bitmask DP", "hours": 0.5, "children": []},
+            {"id": "digit-dp", "title": "Digit DP", "hours": 0.5, "children": []},
+            {"id": "dp-optimization", "title": "DP optimization techniques", "hours": 0.5, "children": []},
+            {"id": "advanced-dp-patterns", "title": "Advanced DP interview patterns", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "interview-patterns",
+          "title": "Interview patterns and templates",
+          "hours": 2.0,
+          "children": [
+            {"id": "coding-patterns", "title": "Common coding patterns", "hours": 0.5, "children": []},
+            {"id": "pattern-recognition", "title": "Pattern recognition and mapping", "hours": 0.5, "children": []},
+            {"id": "bruteforce-to-optimized", "title": "Brute force to optimized approach", "hours": 0.5, "children": []},
+            {"id": "explain-complexity", "title": "Explaining complexity clearly", "hours": 0.5, "children": []},
+            {"id": "explain-approach", "title": "Explaining approach before coding", "hours": 0.5, "children": []},
+            {"id": "edge-cases", "title": "Edge cases and validation", "hours": 0.5, "children": []},
+            {"id": "debugging-interview-code", "title": "Debugging interview code", "hours": 0.5, "children": []}
+          ]
+        },
+        {
+          "id": "mock-questions",
+          "title": "Easy, medium and hard drills",
+          "hours": 2.5,
+          "children": [
+            {"id": "easy-problems", "title": "Easy problem routine", "hours": 0.5, "children": []},
+            {"id": "medium-problems", "title": "Medium problem routine", "hours": 0.5, "children": []},
+            {"id": "hard-problems", "title": "Hard problem routine", "hours": 0.5, "children": []},
+            {"id": "timed-practice", "title": "Timed practice sessions", "hours": 0.5, "children": []},
+            {"id": "mock-interviews", "title": "Mock interviews and live explanation", "hours": 0.5, "children": []},
+            {"id": "revision-cycles", "title": "Revision cycles and mistake tracking", "hours": 0.5, "children": []}
+          ]
+        }
+      ]
+    }
+  ]
+}

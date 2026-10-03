@@ -1,0 +1,25 @@
+{
+  "id": "projects",
+  "title": "Engineering Projects",
+  "children": [
+    {
+      "id": "devops-projects",
+      "title": "DevOps projects",
+      "children": [
+        {"id": "project-setup-lab", "title": "Provision a Linux lab with VMs and networking", "hours": 3.0, "children": []},
+        {"id": "project-docker-app", "title": "Containerize a multi-service app with Compose", "hours": 4.0, "children": []},
+        {"id": "project-k8s-app", "title": "Deploy a microservice app to Kubernetes", "hours": 5.0, "children": []},
+        {"id": "project-terraform", "title": "Create reusable Terraform modules for AWS", "hours": 4.0, "children": []}
+      ]
+    },
+    {
+      "id": "observability-projects",
+      "title": "Observability and reliability",
+      "children": [
+        {"id": "project-grafana", "title": "Set up Grafana, Prometheus and log pipelines", "hours": 3.0, "children": []},
+        {"id": "project-alerting", "title": "Build alerts and SLO dashboards", "hours": 3.0, "children": []},
+        {"id": "project-incident", "title": "Run a blameless incident review and rollback drill", "hours": 2.5, "children": []}
+      ]
+    }
+  ]
+}
